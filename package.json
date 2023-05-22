@@ -1,0 +1,16 @@
+{
+  "name": "stanleymasinde.com",
+  "version": "0.1.0",
+  "description": "Entry point for my website(s)",
+  "main": "\"\"",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/input.css  -o ./dist/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css  -o ./dist/output.css --minify"
+  },
+  "author": "Stanley Masinde",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
