@@ -1,3 +1,4 @@
+import './style.css'
 window.addEventListener('load', function () {
     (async function main() {
         // Set the current year in the #year element
@@ -22,7 +23,7 @@ window.addEventListener('load', function () {
     // Async function to fetch links data from links.json
     async function fetchLinks() {
         try {
-            const response = await fetch('/src/links.json');
+            const response = await fetch('/links.json');
 
             if (response.ok) {
                 const linksResponse = await response.json();
