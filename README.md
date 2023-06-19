@@ -5,10 +5,10 @@
 1. Simple and accessible
 2. SEO friendly
 3. Easy to copy resuse
+4. Configurable links
 
 ### Upcoming feaures
-1. Configurable links
-2. Analytics 
+1. Analytics 
 
 ### Running locally
 This project uses [Tailwind CSS](https://tailwindcss.com/) for styling.
