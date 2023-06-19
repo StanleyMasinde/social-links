@@ -1,17 +1,8 @@
 window.addEventListener('load', function () {
     (async function main() {
-        try {
-            const response = await fetch('/src/links.json')
-
-            if (response.ok) {
-                const linksResponse = await response.json()
-                createLinkElements(linksResponse.links)
-            } else {
-                // A non 200 response was returned
-            }
-        } catch (error) {
-            // This is probably a syntax error
-        }
+        document.querySelector('#year')
+            .textContent = new Date().getFullYear()
+        await fetchLinks()
     }())
 
     const createLinkElements = (links = []) => {
@@ -25,5 +16,20 @@ window.addEventListener('load', function () {
             linkElement.rel = "noopener noreferrer"
             linksDiv.appendChild(linkElement)
         });
+    }
+
+    async function fetchLinks() {
+        try {
+            const response = await fetch('/src/links.json')
+
+            if (response.ok) {
+                const linksResponse = await response.json()
+                createLinkElements(linksResponse.links)
+            } else {
+                // A non 200 response was returned
+            }
+        } catch (error) {
+            // This is probably a syntax error
+        }
     }
 })
