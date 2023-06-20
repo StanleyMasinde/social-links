@@ -15,6 +15,13 @@ This project uses [Tailwind CSS](https://tailwindcss.com/) for styling.
 1. Clone this repository `git clone git@github.com:StanleyMasinde/social-links.git`
 2. Install dependencies `npm i`
 3. Run the dev server `npm run dev`
-The website will not auto-reload to get auto-reload, use a tool like [Live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
+### Using this for your own links
+1. Clone this project
+2. Install dependencies see [Running Loccally](#running-locally)
+3. Update `public/links.json` with your own links
+4. Deploy
 
+### Tools used
+1. [Vite](https://vitejs.dev) - Next Generation Frontend Tooling
+2. [Tailwind.css](https://tailwindcss.com) - Rapidly build modern websites without ever leaving your HTML.
