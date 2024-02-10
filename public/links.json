@@ -1,20 +1,20 @@
 {
-    "links": [
-        {
-            "name": "About",
-            "url": "https://about.stanleymasinde.com/"
-        },
-        {
-            "name": "Twitter",
-            "url": "https://twitter.com/stanleymasinde_/"
-        },
-        {
-            "name": "Github",
-            "url": "https://github.com/stanleymasinde/"
-        },
-        {
-            "name": "Medium",
-            "url": "https://stanleymasinde.medium.com"
-        }
-    ]
+  "links": [
+    {
+      "name": "About",
+      "url": "https://about.stanleymasinde.com/"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/stanleymasinde_/"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/stanleymasinde/"
+    },
+    {
+      "name": "Medium",
+      "url": "https://stanleymasinde.medium.com"
+    }
+  ]
 }
