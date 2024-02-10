@@ -4,6 +4,6 @@
 
 @layer utilities {
   .button_link {
-    @apply w-full rounded-lg border-2 border-gray-800 px-5 py-2 text-center font-semibold transition-colors duration-700 hover:bg-teal-500 hover:text-white hover:shadow-teal-500 hover:drop-shadow-md;
+    @apply w-full rounded-lg border-2 border-gray-800 px-5 py-2 text-center transition-colors duration-700 hover:bg-teal-500 hover:text-white hover:shadow-teal-500 hover:drop-shadow-md;
   }
 }
