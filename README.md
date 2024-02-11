@@ -33,6 +33,5 @@ This project uses [Tailwind CSS][tailwind] for styling.
 1. [Vite][vite] - Next Generation Frontend Tooling
 2. [Tailwind.css][tailwind] - Rapidly build modern websites without ever leaving your HTML.
 
-
 [tailwind]: https://tailwindcss.com/
 [vite]: https://vitejs.dev
