@@ -15,7 +15,7 @@
 
 ### Running locally
 
-This project uses [Tailwind CSS](https://tailwindcss.com/) for styling.
+This project uses [Tailwind CSS][tailwind] for styling.
 
 1. Clone this repository `git clone git@github.com:StanleyMasinde/social-links.git`
 2. Install dependencies `npm i`
@@ -30,5 +30,9 @@ This project uses [Tailwind CSS](https://tailwindcss.com/) for styling.
 
 ### Tools used
 
-1. [Vite](https://vitejs.dev) - Next Generation Frontend Tooling
-2. [Tailwind.css](https://tailwindcss.com) - Rapidly build modern websites without ever leaving your HTML.
+1. [Vite][vite] - Next Generation Frontend Tooling
+2. [Tailwind.css][tailwind] - Rapidly build modern websites without ever leaving your HTML.
+
+
+[tailwind]: https://tailwindcss.com/
+[vite]: https://vitejs.dev
