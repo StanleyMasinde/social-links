@@ -1,9 +1,10 @@
 import './style.css'
+import { links } from './links.json'
+
 window.addEventListener('load', function () {
   ;(async function main() {
     // Set the current year in the #year element
     document.querySelector('#year').textContent = new Date().getFullYear()
-    await fetchLinks()
   })()
 
   // Function to create link elements and append them to the #links div
@@ -19,22 +20,5 @@ window.addEventListener('load', function () {
       linksDiv.appendChild(linkElement)
     })
   }
-
-  // Async function to fetch links data from links.json
-  async function fetchLinks() {
-    try {
-      const response = await fetch('/links.json')
-
-      if (response.ok) {
-        const linksResponse = await response.json()
-        createLinkElements(linksResponse.links)
-      } else {
-        // Handle the case when a non-200 response was returned
-        console.error('Error: Unable to fetch links data.')
-      }
-    } catch (error) {
-      // Handle any errors occurred during the fetch or JSON parsing
-      console.error('Error:', error)
-    }
-  }
+  createLinkElements(links)
 })
