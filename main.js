@@ -2,10 +2,8 @@ import './style.css'
 import { links } from './links.json'
 
 window.addEventListener('load', function () {
-  ;(async function main() {
-    // Set the current year in the #year element
-    document.querySelector('#year').textContent = new Date().getFullYear()
-  })()
+  // Set the current year in the #year element
+  document.querySelector('#year').textContent = new Date().getFullYear()
 
   // Function to create link elements and append them to the #links div
   function createLinkElements(links = []) {
